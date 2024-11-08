@@ -73,7 +73,3 @@ Log4j2 is used to handle logging throughout the application. Logs are saved to a
 ## Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
