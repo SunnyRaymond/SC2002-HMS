@@ -9,7 +9,7 @@
 
 This is a Java-based Hospital Management System (HMS) that manages patient records, doctor availability, appointment scheduling, prescriptions, and more. This project is structured using Maven as the build tool and includes Log4j2 for logging capabilities.
 
-## Team Members✨
+## Team Members
 
 <table>
   <tr>
