@@ -1,16 +1,25 @@
-# Hospital Management System (HMS)
+<div align="center">
+
+# Hospital Management System (HMS) <br/><br/> SC2002 SCS1 Team 1
+
+</div>
+<br/>
+
+## Overview
 
 This is a Java-based Hospital Management System (HMS) that manages patient records, doctor availability, appointment scheduling, prescriptions, and more. This project is structured using Maven as the build tool and includes Log4j2 for logging capabilities.
 
-## Table of Contents
+## Team Members✨
 
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Requirements](#requirements)
-- [Dependencies](#dependencies)
-- [Installation and Usage](#installation-and-usage)
-
----
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/SunnyRaymond" target="_blank"><img src="https://avatars.githubusercontent.com/u/112172601?v=4" width="150px;" alt=""/></a><br /><sub><b>Guo Yichen</b></sub><br /></td>
+    <td align="center"><a href="https://github.com/lyk6666" target="_blank"><img src="https://avatars.githubusercontent.com/u/163702942?v=4" width="150px;" alt=""/></a><br /><sub><b>Li Yikai</b></sub><br /></td>
+    <td align="center"><a href="https://github.com/zhenxi0901" target="_blank"><img src="https://avatars.githubusercontent.com/u/79646645?v=4" width="150px;" alt=""/></a><br /><sub><b>Li Zhenxi</b></sub><br /></td>
+    <td align="center"><a href="https://github.com/xubin0" target="_blank"><img src="https://avatars.githubusercontent.com/u/163966946?v=4" width="150px;" alt=""/></a><br /><sub><b>Cai Xubin</b></sub><br /></td>
+    <td align="center"><a href="https://github.com/Loeeeen" target="_blank"><img src="https://avatars.githubusercontent.com/u/164972577?v=4" width="150px;" alt=""/></a><br /><sub><b>Liang Jianpeng</b></sub><br /></td>
+  </tr>
+</table>
 
 ## Features
 
@@ -20,6 +29,19 @@ This is a Java-based Hospital Management System (HMS) that manages patient recor
 - **Medical Records**: Doctors can add consultation notes and prescriptions for patients.
 - **Doctor Availability**: Doctors can set their availability for appointments.
 - **Logging**: Integrated Log4j2 for error and event logging.
+
+## Design Principles
+
+1. **Single Responsibility Principle (SRP)**
+   - Focuses on having each class responsible for a single purpose or actor.
+2. **Open Closed Principle (OCP)**
+   - Software entities should be open for extension but closed for modification.
+3. **Liskov Substitution Principle (LSP)**
+   - Subtypes must be substitutable for their base types.
+4. **Interface Segregation Principle (ISP)**
+   - Large interfaces should be split into smaller, more specific ones.
+5. **Dependency Injection Principle (DIP)**
+   - High-level modules should not depend on low-level modules but on abstractions.
 
 ## Project Structure
 
@@ -31,20 +53,20 @@ The project follows a modular structure to separate concerns:
 - `scs1_group1.record`: Handles medical records, appointment records, and prescriptions.
 - `scs1_group1.container`: Manages data containers for users and records (e.g., `PatientContainer`, `AppointmentContainer`).
 
-## Requirements
+## Technology Stack
 
-- **Java 17**
-- **Maven**
+- **Language**: Java
+- **Data Storage**: CSV files for data storage
 
-## Dependencies
+## Prerequisites
 
-- **Log4j2**: For logging system events and errors.
-  
-These dependencies are specified in the `pom.xml` file and will be managed automatically by Maven.
+- Java 17
+- Maven
 
 ## Installation and Usage
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/SunnyRaymond/SC2002-HMS.git
    cd HMS
@@ -54,22 +76,32 @@ These dependencies are specified in the `pom.xml` file and will be managed autom
    ```bash
    mvn compile
    ```
-   
 3. **Run the Application**:
    Start the application by running the `Main` class through Maven:
    ```bash
    mvn exec:java
    ```
 
-4. **Interacting with the System**:
-   - **Doctor**: Manage appointments, view patient medical records, and set availability.
-   - **Patient**: Schedule and view appointments, view personal records, and edit contact information.
-   - **Administrator**: Access all records and manage user accounts.
+## Documentation
 
-## Logging
+For detailed documentation, refer to the `./docs` directory.
 
-Log4j2 is used to handle logging throughout the application. Logs are saved to a specified file (configured in `log4j2.xml`) and will help in debugging and monitoring the application's behavior.
+[View the Java Documentation](https://github.com/SunnyRaymond/SC2002-HMS)
 
-## Contributing
+## UML Class Diagrams
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+Class diagrams can be found in the `./diagrams` folder:
+
+### Entity Diagram
+
+![Entity Diagram](https://github.com/SunnyRaymond/SC2002-HMS)
+
+## Code of Conduct
+
+We are committed to ensuring a welcoming and inclusive environment for everyone. We expect all participants in this project to adhere to our Code of Conduct. Please refer to the [Code of Conduct](CODE_OF_CONDUCT.md) for full details on our expectations and guidelines.
+
+## License
+
+Copyright (c) SCS1 Group 1. All rights reserved.
+
+Licensed under the [MIT](https://github.com/SunnyRaymond/SC2002-HMS) license.
