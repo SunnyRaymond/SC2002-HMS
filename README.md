@@ -92,13 +92,9 @@ For detailed documentation, refer to the `./docs` directory.
 
 Class diagrams can be found in the `./diagrams` folder:
 
-### Entity Diagram
-
-![Entity Diagram](https://github.com/SunnyRaymond/SC2002-HMS)
-
 ## Code of Conduct
 
-We are committed to ensuring a welcoming and inclusive environment for everyone. We expect all participants in this project to adhere to our Code of Conduct. Please refer to the [Code of Conduct](CODE_OF_CONDUCT.md) for full details on our expectations and guidelines.
+We are committed to ensuring a welcoming and inclusive environment for everyone. We expect all participants in this project to adhere to our Code of Conduct.
 
 ## License
 
