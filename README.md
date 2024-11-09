@@ -3,7 +3,25 @@
 # Hospital Management System (HMS) <br/><br/> SC2002 SCS1 Team 1
 
 </div>
+
 <br/>
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Team Members](#team-members)
+- [Features](#features)
+- [Design Principles](#design-principles)
+- [Project Structure](#project-structure)
+- [Technology Stack](#technology-stack)
+- [Prerequisites](#prerequisites)
+- [Installation and Usage](#installation-and-usage)
+- [Documentation](#documentation)
+- [UML Class Diagrams](#uml-class-diagrams)
+- [Code of Conduct](#code-of-conduct)
+- [License](#license)
+
+---
 
 ## Overview
 
@@ -90,7 +108,7 @@ For detailed documentation, refer to the `./docs` directory.
 
 ## UML Class Diagrams
 
-Class diagrams can be found in the `./diagrams` folder:
+Class diagrams can be found in the `./diagrams` folder.
 
 ## Code of Conduct
 
@@ -98,6 +116,4 @@ We are committed to ensuring a welcoming and inclusive environment for everyone.
 
 ## License
 
-Copyright (c) SCS1 Group 1. All rights reserved.
-
-Licensed under the [MIT](https://github.com/SunnyRaymond/SC2002-HMS) license.
+Licensed under the [MIT License](https://github.com/SunnyRaymond/SC2002-HMS).
