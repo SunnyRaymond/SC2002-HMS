@@ -591,7 +591,7 @@ public class AdministratorMenu extends Menu {
     }
 
 
-    public void genderFilteredView() {
+    private void genderFilteredView() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Select Gender to View:");
         System.out.println("1. Male");
@@ -641,7 +641,7 @@ public class AdministratorMenu extends Menu {
     }
     
 
-    public void ageFilteredView() {
+    private void ageFilteredView() {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter Age Range:");
@@ -706,7 +706,7 @@ public class AdministratorMenu extends Menu {
     
     
 
-    public void roleFilterView(){
+    private void roleFilterView(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Select Role to View:");
         System.out.println("1. Doctor");
@@ -751,7 +751,7 @@ public class AdministratorMenu extends Menu {
         }
     }
 
-    public void noFilterView(){
+    private void noFilterView(){
         System.out.println("All Staff:");
         System.out.printf("%-5s %-15s %-20s %-15s %-10s %-5s%n", "No.", "Hospital ID", "Name", "Role", "Gender", "Age");
         System.out.println("-----------------------------------------------------------------------");
