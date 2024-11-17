@@ -108,7 +108,6 @@ public class PatientContainer extends UserContainer {
                         patient.getEmail()));
                 }
             }
-            System.out.println("Patient data successfully exported to CSV.");
         } catch (IOException e) {
             e.printStackTrace();
         }

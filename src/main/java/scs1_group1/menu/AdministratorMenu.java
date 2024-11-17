@@ -627,6 +627,7 @@ public class AdministratorMenu extends Menu {
             System.out.println("2. Filtered by age");
             System.out.println("3. Filtered by role");
             System.out.println("4. No Filter");
+            System.out.print("Enter your choice: ");
             choice = sc.nextInt();
             
             switch (choice) {
