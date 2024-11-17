@@ -114,6 +114,10 @@ Class diagrams can be found in the `./diagrams` folder.
 
 ![UML Diagram](./diagrams/UML_Diagram.png)
 
+## Declaration
+
+Original Work and GAI Declaration can be found in the `./declaration` folder.
+
 ## Code of Conduct
 
 We are committed to ensuring a welcoming and inclusive environment for everyone. We expect all participants in this project to adhere to our Code of Conduct.

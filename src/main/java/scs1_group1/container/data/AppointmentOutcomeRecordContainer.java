@@ -163,7 +163,7 @@ public class AppointmentOutcomeRecordContainer extends RecordContainer {
 
             // Write each AppointmentOutcomeRecord's details
             for (AppointmentOutcomeRecord record : getAllAppointmentOutcomeRecords()) {
-                writer.write(String.format("%s,%s,%s,%s,\"%s\"\n",
+                writer.write(String.format("%s,%s,%s,%s,%s\n",
                     record.getAppointmentRecordId(),
                     record.getPatientHospitalId(),
                     record.getDoctorHospitalId(),

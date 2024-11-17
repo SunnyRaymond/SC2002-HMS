@@ -130,10 +130,10 @@ public class PatientContainer extends UserContainer {
                 String patientId = patient.getHospitalId();
                 
                 // Join diagnoses and treatments into comma-separated lists
-                String diagnoses = String.join(", ", patient.getDiagnoses());
-                String treatments = String.join(", ", patient.getTreatments());
+                String diagnoses = String.join(";", patient.getDiagnoses());
+                String treatments = String.join(";", patient.getTreatments());
                 
-                writer.write(String.format("%s,\"%s\",\"%s\"\n", patientId, diagnoses, treatments));
+                writer.write(String.format("%s,%s,%s\n", patientId, diagnoses, treatments));
             }
         } catch (IOException e) {
             e.printStackTrace();

@@ -499,7 +499,7 @@ public class PatientMenu extends Menu {
         MedicalRecord medicalRecord = patient.getMedicalRecord();
     
         System.out.println("----------------------------------------");
-        System.out.println("Medical Record of"+name);
+        System.out.println("Medical Record of "+name);
         System.out.println("Patient Id: " + medicalRecord.getPatientHospitalId());
         System.out.println("Name: " + name);
         System.out.println("Date of Birth: " + dateOfBirth);
