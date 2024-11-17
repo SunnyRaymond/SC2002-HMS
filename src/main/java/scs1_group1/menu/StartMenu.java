@@ -236,7 +236,7 @@ public void run() {
     private void promptPasswordChange(UserContainer userContainer, String hospitalId) {
         Scanner sc = new Scanner(System.in);
         System.out.println("You are using the default password. Please change it for security.");
-        /*String newPassword;
+        String newPassword;
     
         while (true) {
             System.out.print("Enter new password: ");
@@ -258,7 +258,7 @@ public void run() {
             } else {
                 System.out.println("Passwords do not match. Please try again.");
             }
-        }*/
+        }
     }
     
     
